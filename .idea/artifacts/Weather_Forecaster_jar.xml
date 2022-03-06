@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Weather_Forecaster:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Weather_Forecaster_jar</output-path>
+    <root id="archive" name="Weather_Forecaster.jar">
+      <element id="module-output" name="Weather_Forecaster" />
+      <element id="extracted-dir" path="$USER_HOME$/Documents/lib/json-20211205.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Documents/lib/javafx-sdk-17.0.2/lib/javafx-swt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Documents/lib/javafx-sdk-17.0.2/lib/javafx.web.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Documents/lib/javafx-sdk-17.0.2/lib/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Documents/lib/javafx-sdk-17.0.2/lib/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Documents/lib/javafx-sdk-17.0.2/lib/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Documents/lib/javafx-sdk-17.0.2/lib/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Documents/lib/javafx-sdk-17.0.2/lib/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Documents/lib/javafx-sdk-17.0.2/lib/javafx.graphics.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
