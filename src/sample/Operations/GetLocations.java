@@ -2,6 +2,7 @@ package sample.Operations;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
+import sample.credentials.AccessData;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -14,8 +15,7 @@ import java.net.URL;
 public class GetLocations {
     private static HttpURLConnection connection;
     public static String getLat_Lon(String cityName) {
-        final String api_key = "b9d82d47340ecf4456de5ef1ccb929ef";
-        final String url = "http://api.openweathermap.org/geo/1.0/direct?q=" + cityName + "&limit=2&appid=" + api_key;
+        final String url = "http://api.openweathermap.org/geo/1.0/direct?q=" + cityName + "&limit=2&appid=" + AccessData.getAPIKey();
         BufferedReader reader;
         String line;
         StringBuffer responseContent = new StringBuffer();

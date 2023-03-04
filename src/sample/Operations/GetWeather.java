@@ -15,6 +15,9 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import sample.credentials.AccessData;
+import sample.credentials.AccessData.*;
+
 public class GetWeather {
 
     private static HttpURLConnection connection;
@@ -42,9 +45,7 @@ public class GetWeather {
         String lat = lat_lon[0];
         String lon = lat_lon[1];
 
-
-        final String api_key = "b9d82d47340ecf4456de5ef1ccb929ef";
-        String url = "http://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&appid=" + api_key;
+        String url = "http://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&appid=" + AccessData.getAPIKey();
 
         BufferedReader reader;
         String line;
