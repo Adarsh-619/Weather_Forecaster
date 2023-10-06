@@ -16,10 +16,15 @@ Following are the two APIs which have been used in this app:
 ![Alt](/assets/Screenshot-1.png "Screenshot-1")
 ![Alt](/assets/Screenshot-2.png "Screenshot-2")
 
+## Fixes
+1. In order to run the app, you need to include JavaFx, DotENV and JSON libraries (All of them are there in the assets folder)
+2. Add the VM options to run the APP `--module-path "D:\Study\Project\demo\Weather_Forecaster\assets\javafx-sdk-17.0.2\lib" --add-modules=javafx.controls,javafx.fxml`
+Example for above: `--module-path <path To javaFX lib> --add-modules=javafx.controls,javafx.fxml`
+
 ## Installation
 1. Clone the Repo
 2. Open the project in intellij IDEA
 3. Navigate to credentials/AccessData.java and insert your api key
 4. You can run build the project and execute the app,
-5. Moreover there is a packaged version of the app in the format of .exe in the folder, You can also build the artifacts and package your jar.
+5. Moreover, there is a packaged version of the app in the format of .exe in the folder, You can also build the artifacts and package your jar.
 6. Happy Learning 😎😉😃

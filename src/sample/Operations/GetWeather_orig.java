@@ -7,6 +7,7 @@ package sample.Operations;
  */
 import org.json.JSONArray;
 import org.json.JSONObject;
+import sample.credentials.AccessData;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
@@ -34,7 +35,7 @@ public class GetWeather_orig {
         String lon = lat_lon[1];
 //        System.out.println(lat + " " + lon);
 
-        final String api_key = "b9d82d47340ecf4456de5ef1ccb929ef";
+        final String api_key = AccessData.getAPIKey();
         String url = "http://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&appid=" + api_key;
 
         BufferedReader reader;

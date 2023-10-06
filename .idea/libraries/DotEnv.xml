@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="DotEnv">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/assets/DotEnv/annotations-13.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/assets/DotEnv/java-dotenv-5.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/assets/DotEnv/kotlin-stdlib-1.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
